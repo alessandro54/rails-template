@@ -6,8 +6,8 @@ module.exports = {
   content: [
     './app/helpers/**/*.rb',
     './app/assets/stylesheets/**/*.css',
-    './app/views/**/*.{html,html.erb,erb}',
-    './app/javascript/components/**/*.js',
+    './app/views/**/*.{html,html.erb,erb, slim, html.slim}',
+    './app/javascript/**/*.ts',
   ],
   theme: {
     fontFamily: {
@@ -26,6 +26,5 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/line-clamp'),
   ],
 }

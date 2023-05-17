@@ -19,11 +19,16 @@ gem "vite_rails"
 
 gem "vite_ruby"
 
+
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
+
+# Alternative to ERB [https://slim-template.github.io/]
+gem "slim"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
@@ -42,6 +47,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+gem "foreman"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
